@@ -1,0 +1,12 @@
+1. 前往Anaconda官网下载2018.12版本 (wget)
+2. 安装Anaconda-4.5.12 (bash)
+3. export tilsiter中的sep list (conda list ...)
+4. 将sep list移到新服务器中 (scp)
+5. 使用sep list建立新环境 (conda create -n name --file xxx)
+6. pip install opencv-python
+7. pip install kornia==0.1.4 (google colab)
+8. 下载RHD Dataset（wget)
+9. unzip RHD_v1-1.zip.1
+10. 在pycharm中建立新的mapping
+11. upload所有代码文件 + 最新训练模型
+12. 运行测试
